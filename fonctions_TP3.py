@@ -56,16 +56,4 @@ def jeu():
     M=''
     for i in range(len(mot_pendu)):
         M=M+mot_pendu[i]       
-
-root=tk.Tk()         
-width=750
-height=750
-
-
-class Fenetre():
-    def __init__(self,root,width,height):
-        tk.Canvas(root,width=750,height=750)
-        Img=tk.PhotoImage("bonhomme1.gif")
-        tk.Label(root,text=affichage(mot_chercher,lettre,mot_pendu))
-        tk.Entry()
-    root.mainloop()
+        
